@@ -1,0 +1,224 @@
+
+
+.option-btn {
+  margin-right: 20px !important;
+  padding: 0;
+  color: #999;
+  border: none;
+   background: transparent;   
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border-radius: 0;
+  align-items: flex-start; 
+}
+  button {
+  border: none;
+  background: transparent;  
+  appearance: auto;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  align-items: flex-start;
+  cursor: default;
+  margin-right: 20px;
+  padding-block: 1px;
+  padding-inline: 6px;
+  border-width: 2px;
+  text-transform: none;
+  border-radius: 0;
+}
+*{
+  box-sizing : border-box;
+}
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+body {
+  color: #666;
+  font-family:  sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.product-option {
+  background: #fff none repeat scroll 0 0;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 30px;
+}
+.text-end {
+  text-align: right !important;
+}
+.d-md-block {
+  display: block !important;
+}
+p {
+  margin: 0 0 15px;
+}
+.second{
+  position: relative;
+  float: left;
+}
+.first {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: calc(-1* var(--bs-gutter-y));
+  margin-right: calc(-.5* var(--bs-gutter-x));
+  margin-left: calc(-.5* var(--bs-gutter-x));
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.pb-80 {
+  padding-bottom: 80px;
+}
+.bg-dark-white {
+  background: #f6f6f6;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x)* .5);
+  padding-left: calc(var(--bs-gutter-x)* .5);
+  margin-right: auto;
+  margin-left: auto;
+}
+.product-style-2 .pro-label {
+  left: 15px;
+  top: 15px;
+}
+.pro-label {
+  left: 20px;
+  position: absolute;
+  top: 20px;
+  z-index: 2;
+  background: #c8a165 none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #fff;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 10px;
+  text-transform: capitalize;
+}
+.pro-label.new-label {
+  background: #c8a165 none repeat scroll 0 0;
+}
+.pro-price {
+  color: #c87065;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.pro-label.sale-label {
+  background: #c87065 none repeat scroll 0 0;
+}
+.product-img {
+  overflow: hidden;
+  position: relative;
+}
+.product-style-2 .single-product {
+  background: #fff none repeat scroll 0 0;
+  margin-bottom: 30px;
+  padding: 15px 15px 50px;
+}
+.product-style-2 .product-info {
+  padding: 15px 0 0;
+}
+.text-center {
+  text-align: center !important;
+}
+.fix {
+  overflow: hidden;
+}
+.product-area.product-style-2 .post-title {
+  font-size: 15px;
+}
+.post-title {
+font-size: 16px;
+line-height: 18px;
+text-transform: uppercase;
+font-family: bree serif;
+margin-bottom: 5px;
+}
+h4 {
+  color: #434343;
+  margin: 0 0 10px;
+  font-weight: 500;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+a {
+  text-decoration: none;
+  color: #434343;
+}
+.pro-rating a {
+  color: #c87065;
+  font-size: 15px;
+  line-height: 28px;
+}
+.product-action a {
+  color: #666;
+  float: left;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  width: 25%;
+}
+.product-style-2 .product-action {
+  background: #f6f6f6 none repeat scroll 0 0;
+  margin-top: 15px;
+  opacity: 1;
+  position: inherit;
+  visibility: visible;
+  width: calc(100% - 0px);
+}
+.product-action a::before {
+  background: #999 none repeat scroll 0 0;
+  content: "";
+  height: 16px;
+  margin-top: -8px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 2px;
+}
+.product-action {
+  left: 0;
+  margin: auto;
+  right: 0;
+  text-align: center;
+  visibility: hidden;
+  opacity: 10;
+  width: calc(100% - 40px);
+}
+
