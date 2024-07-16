@@ -42,9 +42,17 @@ label{
 input[type="text"]{
     margin-bottom: 20px;
     height: 56px;
+    border-radius: 5px;
+    background-color: transparent;
     width: 314px;
-    background-color: rgba(0, 0, 0, 0.836);
-    border-color: rgba(0, 0, 0, 0.836);
+    background-color: rgba(128, 128, 128, 0.09);
+    border: none;
+    outline: none;
+}
+input[type="text"]:focus{
+    border-color: #f0f8ff;
+    border-width: 2px;
+    border-style: solid;
 }
 button[type="submit"]{
     margin-bottom: 18px;
@@ -53,6 +61,7 @@ button[type="submit"]{
     color: aliceblue;
     font-size: 15px;
     cursor: pointer;
+    border: none;
 }
 .button-1{
     background-color: rgba(229, 9, 20);
@@ -89,8 +98,9 @@ input{
     color: #f0f8ff;
     padding-left: 20px;
 }
-.button-1:hover{
+.button-1:focus{
     background-color: rgb(213, 6, 6);
+
 }
 .button-2:hover{
     background-color: rgba(95, 94, 94, 0.3);
