@@ -1,3 +1,4 @@
+@import "./global.css";
 body{
     background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/0552717c-9d8c-47bd-9640-4f4efa2de663/9aaaae2b-2849-46e8-9eb8-bf5da588f498/VN-en-20240701-POP_SIGNUP_TWO_WEEKS-perspective_WEB_b5dca9b5-9f05-4c62-90c3-ad284553ffe4_small.jpg);
     background-repeat: no-repeat;
@@ -8,11 +9,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 .container{
     background-color:rgba(0, 0, 0, 0.836);
     max-width: 450px;
