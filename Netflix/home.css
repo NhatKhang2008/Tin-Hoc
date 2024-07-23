@@ -1,0 +1,86 @@
+@import "./global.css";
+body{
+    background-color: black;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primary-color);
+    align-items: center;
+    padding:10px 10px 10px 10px;
+    justify-content: space-between;
+}
+h3{
+    color: var(--normal-text);
+    cursor: pointer;
+    font-family: 'Arial', ;
+}
+h1{
+    color: red;
+    padding-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.catagories{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1rem;
+}
+.image-container{
+    width: 50px;
+    height: 50px;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: 0;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    align-items: center;
+    padding-left: 13px; }
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.image{
+    border: none;
+    outline: none;
+}
+.container{
+    padding-top: 10px;
+}
+.image-container{
+    margin-right: 20px;
+    border: none;
+    outline: none;
+}
+i{margin-right: 20px;
+color: var(--hover-color);}
+a{
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+.image img:hover{
+    border: 2px solid var(--hover-color);
+    cursor: pointer;
+}
+h3:hover{
+    color: var(--hover-color);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.simon {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.catagories a{
+    margin-left: 15px;
+}
