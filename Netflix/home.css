@@ -1,11 +1,11 @@
 @import "./global.css";
 body{
-    background-color: black;
+    background-color: transparent;
 }
 .navigation{
     display: flex;
     flex-direction: row;
-    background-color: var(--primary-color);
+    background-color: rgb(20, 20, 20);
     align-items: center;
     padding:10px 10px 10px 10px;
     justify-content: space-between;
@@ -15,12 +15,31 @@ h3{
     cursor: pointer;
     font-family: 'Arial', ;
 }
-h1{
+ul li{
+    list-style: none;
+}
+.catagories > a:first-child > li{
     color: red;
     padding-right: 20px;
     margin-left: 20px;
     cursor: pointer;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
 }
+
+.catagories > a > li{
+    color: white;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    transition: .5s;
+}
+
+.catagories > a:hover > li{
+    color: var(--normal-text);
+}
+
 .catagories{
     display: flex;
     flex-direction: row;
@@ -54,9 +73,7 @@ h1{
     border: none;
     outline: none;
 }
-.container{
-    padding-top: 10px;
-}
+
 .image-container{
     margin-right: 20px;
     border: none;
