@@ -11,7 +11,7 @@ body{
     justify-content: space-between;
 }
 h3{
-    color: var(--normal-text);
+    color: var(--hover-color);
     cursor: pointer;
     font-family: 'Arial', ;
 }
@@ -90,14 +90,86 @@ a{
     border: 2px solid var(--hover-color);
     cursor: pointer;
 }
-h3:hover{
-    color: var(--hover-color);
-    cursor: pointer;
-    transition: 0.5s;
-}
-.simon {
-    background-color: rgba(255, 255, 255, 0.5);
+h3{
+    color: black;
 }
 .catagories a{
     margin-left: 15px;
+}
+.video{
+    position: relative;
+}
+.video-buttons{
+    position: absolute;
+    top: 0;
+}
+p{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: var(--hover-color);
+    max-width: 550px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.arcane{
+    margin-right:100px;
+}
+.play-button{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--hover-color);
+    margin-right: 10px;
+    align-items: center;
+    padding: 7px 20px 7px 20px;
+    border-radius: 5px;
+
+}
+.info-button{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--normal-text);
+    align-items: center;
+    padding: 7px 20px 7px 20px;
+    border-radius: 5px;
+
+}
+.play-button h3{
+    color: black;
+}
+.info-button h3{
+    color: white;
+}
+.fa-solid.fa-play{
+    color: black;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+.arcane{
+    width:  370px;
+    height: 100px;
+    display: flex;
+    margin-left: 85px;
+    margin-top: 400px;
+    margin-bottom: 20px;
+}
+.arcane img{
+    width: 100%;
+    height: 100%;
+}
+.options i{
+    margin-right: 10px;
+}
+.video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
