@@ -298,9 +298,9 @@ h1{
     border-color: var(--normal-text);
     border-width: 2px;
     border-style: solid;
-    padding: 9px;
-    font-size: 14px;
-    margin: 2px;
+    padding: 10px;
+    font-size: 15px;
+    margin: 3px;
     background-color: #141414;
     color: var(--hover-color);
 }
@@ -309,9 +309,9 @@ h1{
     border-color: var(--normal-text);
     border-width: 2px;
     border-style: solid;
-    padding: 9px;
-    font-size: 14px;
-    margin: 2px;
+    padding: 10px;
+    font-size: 15px;
+    margin: 3px;
     background-color: #141414;
 }
 .Section1 i:hover{
@@ -365,4 +365,11 @@ h1{
 }
 .ratings p:last-of-type{
     font-size: 8px;
+}
+.title{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.604);
+    font-family: 'Times New Roman', Times, serif;
 }
